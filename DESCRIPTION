@@ -1,0 +1,17 @@
+Package: rmztabm2mtbls
+Type: Package
+Title: Convert mzTab-M to MetaboLights ISA-Tab in R
+Version: 0.0.1
+Authors@R: person("rmztabm2mtbls", "Maintainer", email = "noreply@example.com", role = c("aut", "cre"))
+Description: An R implementation of the mztabm2mtbls converter that transforms mzTab-M
+    files (or their JSON representation) into ISA-Tab metadata files suitable for
+    MetaboLights submissions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    jsonlite,
+    digest
+Suggests:
+    testthat
+RoxygenNote: 7.3.2

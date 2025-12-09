@@ -1,0 +1,2 @@
+export(convert_mztabm)
+importFrom(jsonlite,fromJSON)
